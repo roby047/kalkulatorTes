@@ -1,0 +1,31 @@
+<style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .btn {
+        width: 6em;
+        height: 6em;
+        margin: 0.2em;
+        border: none;
+        cursor: pointer;
+		color: blue;
+		 background: white;
+      }
+      #viewer {
+        width: 25.7em;
+        height: 4em;
+        margin: 0.3em;
+        padding: 0.1em 0.8em;
+      }
+      #main {
+        background: linear-gradient(to right, rgb(90, 20, 20), rgb(10, 8, 110));
+        height: 100%;
+      }
+      form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+      }
+</style>
